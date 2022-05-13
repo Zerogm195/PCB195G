@@ -1,0 +1,151 @@
+:root{
+
+user-select: none; 
+background-color: #121212;
+
+}
+
+.disclaimer{
+    
+    opacity:0;
+    
+}
+
+#tiempo{
+    
+    top : -540px;
+    
+}
+
+.Saludo{
+
+    font-size: 3.5cm;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #151E21;
+   /*color: rgb(184, 184, 184);*/
+    animation-name: wenapo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    margin-top: 30%;
+    position: relative;
+    border-radius: 600px;
+    
+}
+
+.act{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    top: -540px;
+    left: 25px;
+    font-size: 2.35cm;
+    background-size: 2cm;
+    width: 15cm;
+    height: 3cm;
+    border-radius: 600px;
+    text-align: center;
+    block-size: relative;
+    
+    animation-name: desaparece;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: rgb;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+.wait{
+    font-size: 1.25cm;
+    text-align: center;
+    width: 20cm;
+    height: -2.5cm;
+    height: 2.0cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(32, 32, 32);
+   /*color: rgb(184, 184, 184);*/
+    animation-name: rgb;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    position: relative;
+    border-radius: 600px;
+    left: 6.5cm;
+    top: -3cm;
+    display:flexbox;
+    align-items: center;
+    
+}
+
+@keyframes rgb {
+    0%{
+        color: red;
+        
+    }
+    15%{
+        color: green;
+        
+    }
+    30%{
+        color: rgb(0, 162, 255);
+    }
+    
+    45%{
+        color: rgb(255, 0, 0);
+    }
+    60%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+    90%{
+        color: red;
+    }
+    100%{
+        color: red;
+    }
+
+}
+
+@keyframes desaparece{
+    0%{}
+    100%{
+        opacity: 80%;
+    }
+}
+
+@keyframes wenapo {
+    0%{
+        color: red;
+        
+    }
+    15%{
+        color: green;
+        
+    }
+    30%{
+        color: rgb(0, 183, 255);
+    }
+    
+    45%{
+        color: red;
+    }
+    60%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+    90%{
+        color: red;
+    }
+    100%{
+        color: red;
+    }
+}
