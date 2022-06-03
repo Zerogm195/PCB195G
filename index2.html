@@ -12,15 +12,12 @@
 
 <body>
 
-<div class="TB21">
-    
         <div class="img1">
             <img src="https://cdn-icons-png.flaticon.com/512/124/124555.png" style="filter: saturate(200%);" class="titulo2">
         </div>
     
         <span class="box1"></span>
 
-</div>
 
 <span class="box2"></span>
 
@@ -50,8 +47,72 @@
     
     </div>
 
-        <cr-button class="boxoftext" type="submit">
-        </cr-button>
+        <!--<a href="index3.html">--><cr-button target="iframe_a" onclick="Showonoff()" class="boxoftext" type="submit" tabindex="1" role="button" ><iframe name="iframe_a" class="CB1" width="50%" height="50%"></iframe></cr-button></a>
+        
+        
+
+<script>
+
+function Showonoff(){
+    
+    var x = document.getElementsByClassName("CB1");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+</script>
+
+    <div class="bt1">
+        <a href="">
+        <img src="info.png"></img>
+        </a>
+    </div>
+
+        <span class="tx1">Info</span>
+
+    
+    <div class="bt2">
+        <a href="">
+        <img src="home.png"></img>
+        </a>
+    </div>
+
+        <span class="tx2">Home</span>
+
+    
+    <div class="bt3"> 
+        <a href="">
+        <img src="login.png"></img>
+        </a>
+    </div>
+
+        <span class="tx3">Login</span>
+
+   
+    <div class="bt4">
+        <a href="">
+        <img src="app.png"></img>
+        </a>
+    </div>
+
+        <span class="tx4">Register</span>
+
+    
+    <div class="bt5">
+        <a href="">
+        <img src="call.png"></img>
+        </a>
+    </div>
+
+        <span class="tx5">Contact</span>
+
+
+    
 
 </body>
 </html>
