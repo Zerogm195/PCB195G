@@ -7,7 +7,8 @@
     <title>Pagina Medio Ambiental</title>
     <link href="style2.css" rel="stylesheet">
     <meta name="viewport" content= "width=device-width, user-scalable=no">
-
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/124/124555.png"/>
+	
 </head>
 
 <body>
@@ -47,7 +48,7 @@
     
     </div>
 
-        <!--<a href="index3.html">--><cr-button target="iframe_a" onclick="Showonoff()" class="boxoftext" type="submit" tabindex="1" role="button" ><iframe name="iframe_a" class="CB1" width="50%" height="50%"></iframe></cr-button></a>
+        <!--<a href="index3.html">--><cr-button target="iframe_a" onclick="Showonoff()" class="boxoftext" type="submit" tabindex="1" role="button" ><iframe name="iframe_a" ID="CB1" width="50%" height="50%"></iframe></cr-button></a>
         
         
 
@@ -55,7 +56,7 @@
 
 function Showonoff(){
     
-    var x = document.getElementsByClassName("CB1");
+    var x = document.getElementById("CB1");
 
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -63,6 +64,7 @@ function Showonoff(){
     x.style.display = "none";
   }
 }
+
 
 
 </script>

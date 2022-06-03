@@ -280,12 +280,12 @@
 /*
 .CB1 {
 
-    left: 70%; 
-    top:38%; 
+    left: 50%; 
+    top:90%; 
     position:fixed; 
     border-radius: 10%;
     background-color: black;
-    width: 30%;
-    height: 50%;
+    width: 3000%;
+    height: 3000%;
 
 }
