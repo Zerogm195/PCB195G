@@ -1,0 +1,15 @@
+:root{
+
+background-color:black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:white;
+
+}
+
+#ip1 {
+
+position:fixed;
+top:90%;
+left:25%;
+
+}

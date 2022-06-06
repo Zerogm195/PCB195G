@@ -280,12 +280,17 @@
 /*
 .CB1 {
 
-    left: 50%; 
-    top:90%; 
-    position:fixed; 
+    left: -255px; 
+    top:-270px; 
+    position:fixed;
+    position:absolute; 
     border-radius: 10%;
     background-color: black;
-    width: 3000%;
-    height: 3000%;
+    float:left;
+    position:absolute;
+    z-index:0;
+    overflow: hidden;
+    outline: none;
+    background-color:black;
 
 }
