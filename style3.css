@@ -9,7 +9,52 @@ color:white;
 #ip1 {
 
 position:fixed;
-top:90%;
+top:86%;
 left:25%;
+width: 45%;
+height: 8%;
 
 }
+
+.welcome {
+
+    background-color: aqua;
+    width: 90%;
+    height: 0%;
+    text-align:center;
+    border-radius: 5%;
+    color: white;
+    position: fixed;
+    left: 5%;
+    z-index: 0;
+    
+    }
+
+    .sb {
+        top: 86%;
+        left: 8%;
+        position: fixed;
+        filter: invert(1);
+    }
+
+    .boxinv {
+
+        width: 95%;
+        position: fixed;
+        height: 25%;
+        left: 3%;
+        top: 17%;
+        background-color: aqua;
+        border-radius: 12%;
+        z-index: 1;
+        opacity: 50%;
+    }
+
+    .fd {
+        top: 85%;
+        left: 75%;
+        position: fixed;
+        filter: invert(1);
+    }
+
+
